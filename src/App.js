@@ -25,7 +25,7 @@ class App extends React.Component {
             {params: {
                 part: 'snippet',
                 maxResults: 5,
-                key: 'AIzaSyBnlECpp76ZVYsDLk_EAUS6zEEQ_G7CEAk',
+                key: '',
                 q: searchTerm,
             }});
             this.setState({ videos: response.data.items, selectedVideo: response.data.items[0]});
